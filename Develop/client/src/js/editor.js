@@ -30,7 +30,7 @@ export default class {
       console.info('Loaded data from IndexedDB, injecting into editor', localData);
       console.log("test", localStorage.getItem('content'));
       
-      this.editor.setValue(header + localData || header);
+      this.editor.setValue(localData || header);
   
     });
 
