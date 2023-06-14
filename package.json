@@ -3,7 +3,7 @@
     "dev": "npm --prefix Develop run start",
     "start": "npm --prefix Develop run server",
     "build": "npm --prefix Develop run build",
-    "heroku-postinstall": "npm run build"
+    "install": "npm --prefix Develop install"
   },
   "dependencies": {
     "express": "^4.18.2",
