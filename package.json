@@ -1,7 +1,9 @@
 {
   "scripts": {
-    "start": "npm --prefix Develop run start",
-    "postinstall": "npm --prefix Develop run build"
+    "dev": "npm --prefix Develop run start",
+    "start": "npm --prefix Develop run server",
+    "build": "npm --prefix Develop run build",
+    "heroku-postinstall": "npm run build"
   },
   "dependencies": {
     "express": "^4.18.2",
